@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-10T15:31:20 IST" name="Suite" finished-at="2025-03-10T15:33:51 IST" duration-ms="151011">
+    <groups>
+      <group name="Master">
+        <method signature="TCC_002_CreatingLeadTestCase.BCRMPortalRedirection()[pri:2, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="BCRMPortalRedirection" class="testCases.TCC_002_CreatingLeadTestCase"/>
+        <method signature="TCC_002_CreatingLeadTestCase.BlueticLeadCreation()[pri:4, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="BlueticLeadCreation" class="testCases.TCC_002_CreatingLeadTestCase"/>
+        <method signature="TCC_002_CreatingLeadTestCase.DashboardPageValidation()[pri:3, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="DashboardPageValidation" class="testCases.TCC_002_CreatingLeadTestCase"/>
+        <method signature="TCC_002_CreatingLeadTestCase.Login()[pri:1, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="Login" class="testCases.TCC_002_CreatingLeadTestCase"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="TCC_002_CreatingLeadTestCase.BCRMPortalRedirection()[pri:2, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="BCRMPortalRedirection" class="testCases.TCC_002_CreatingLeadTestCase"/>
+        <method signature="TCC_002_CreatingLeadTestCase.BlueticLeadCreation()[pri:4, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="BlueticLeadCreation" class="testCases.TCC_002_CreatingLeadTestCase"/>
+        <method signature="TCC_002_CreatingLeadTestCase.DashboardPageValidation()[pri:3, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="DashboardPageValidation" class="testCases.TCC_002_CreatingLeadTestCase"/>
+        <method signature="TCC_002_CreatingLeadTestCase.Login()[pri:1, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="Login" class="testCases.TCC_002_CreatingLeadTestCase"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TCC_002_CreatingLeadTestCase.BCRMPortalRedirection()[pri:2, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="BCRMPortalRedirection" class="testCases.TCC_002_CreatingLeadTestCase"/>
+        <method signature="TCC_002_CreatingLeadTestCase.BlueticLeadCreation()[pri:4, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="BlueticLeadCreation" class="testCases.TCC_002_CreatingLeadTestCase"/>
+        <method signature="TCC_002_CreatingLeadTestCase.DashboardPageValidation()[pri:3, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="DashboardPageValidation" class="testCases.TCC_002_CreatingLeadTestCase"/>
+        <method signature="TCC_002_CreatingLeadTestCase.Login()[pri:1, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" name="Login" class="testCases.TCC_002_CreatingLeadTestCase"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-03-10T15:31:20 IST" name="ChromeTest" finished-at="2025-03-10T15:33:51 IST" duration-ms="151011">
+      <class name="testCases.TCC_002_CreatingLeadTestCase">
+        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" started-at="2025-03-10T15:31:20 IST" name="SetUp" finished-at="2025-03-10T15:31:34 IST" duration-ms="14093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Login()[pri:1, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" started-at="2025-03-10T15:31:34 IST" name="Login" finished-at="2025-03-10T15:31:43 IST" duration-ms="8527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="BCRMPortalRedirection()[pri:2, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" started-at="2025-03-10T15:31:43 IST" name="BCRMPortalRedirection" finished-at="2025-03-10T15:32:02 IST" duration-ms="19859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BCRMPortalRedirection -->
+        <test-method signature="DashboardPageValidation()[pri:3, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" started-at="2025-03-10T15:32:02 IST" name="DashboardPageValidation" finished-at="2025-03-10T15:32:03 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardPageValidation -->
+        <test-method signature="BlueticLeadCreation()[pri:4, instance:testCases.TCC_002_CreatingLeadTestCase@79d8407f]" started-at="2025-03-10T15:32:03 IST" name="BlueticLeadCreation" finished-at="2025-03-10T15:33:51 IST" duration-ms="108079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlueticLeadCreation -->
+      </class> <!-- testCases.TCC_002_CreatingLeadTestCase -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

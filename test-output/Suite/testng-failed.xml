@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" allow-return-values="true">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="OS" value="Mac"/>
+    <parameter name="browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TCC_004IAMUserCreation">
+        <methods>
+          <include name="deleteOldReports"/>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+          <include name="RedirectionToIAM"/>
+        </methods>
+      </class> <!-- testCases.TCC_004IAMUserCreation -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
